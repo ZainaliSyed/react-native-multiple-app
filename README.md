@@ -27,3 +27,7 @@ for example, you can build an release apk of Tibay Balay with this command in th
     in app/src/main directory.
 4. some scripts were added in package.json files
     
+
+
+See this for reference:
+https://medium.com/@amallick_83138/how-to-manage-multiple-environments-in-a-react-native-app-for-android-6d0e852c10de
