@@ -8,8 +8,8 @@
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint .",
-    "androidTibayBalay": "export ENVFILE=.env.tibaybalay && react-native run-android --variant=tibaybalayDebug --appIdSuffix tibaybalay",
-    "androidRumahaman": "export ENVFILE=.env.rumahaman && react-native run-android --variant=rumahamanDebug --appIdSuffix rumahaman"
+    "androidTibayBalay": "SET ENVFILE=.env.tibaybalay && react-native run-android --variant=tibaybalayDebug --appIdSuffix tibaybalay",
+    "androidRumahaman": "SET ENVFILE=.env.rumahaman && react-native run-android --variant=rumahamanDebug --appIdSuffix rumahaman"
   },
   "dependencies": {
     "react": "16.13.1",
