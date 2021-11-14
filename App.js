@@ -10,6 +10,7 @@ import React from 'react';
 import {Text, StatusBar, View} from 'react-native';
 
 import Config from 'react-native-config';
+import {SOME_KEY} from 'react-native-dotenv';
 
 class App extends React.Component {
   render() {
@@ -25,7 +26,7 @@ class App extends React.Component {
         </Text>
 
         <Text style={{fontSize: 20, color: '#000', fontWeight: 'bold'}}>
-          Hello from {Config.VERSION} App
+          Hello from {Config.VERSION} {SOME_KEY} App
         </Text>
       </View>
     );
