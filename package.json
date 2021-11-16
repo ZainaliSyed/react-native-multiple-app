@@ -9,14 +9,14 @@
     "test": "jest",
     "lint": "eslint .",
     "androidTibayBalay": "ENVFILE=.env.tibaybalay && react-native run-android --variant=tibaybalayDebug --appIdSuffix tibaybalay",
-    "androidRumahaman": "ENVFILE=.env.rumahaman && react-native run-android --variant=rumahamanDebug --appIdSuffix rumahaman"
+    "androidRumahaman": "ENVFILE=.env.rumahaman && react-native run-android --variant=rumahamanDebug --appIdSuffix rumahaman",
+    "postinstall": "cd ios && pod install"
   },
   "dependencies": {
     "fs": "^0.0.1-security",
     "react": "16.13.1",
     "react-native": "0.63.2",
-    "react-native-config": "^1.3.3",
-    "react-native-dotenv": "^3.3.0"
+    "react-native-config": "^1.4.5"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
